@@ -4,12 +4,8 @@ let result = document.getElementById("value");
 let counterValue = 0;
 
 decrement.addEventListener("click", function () {
-  if (counterValue > 0) {
-    counterValue--;
-    result.innerText = counterValue;
-  } else {
-    alert("Already Zero Value");
-  }
+  counterValue--;
+  result.innerText = counterValue;
 });
 
 increment.addEventListener("click", function () {
